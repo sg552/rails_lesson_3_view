@@ -1,0 +1,25 @@
+# Rails 教程:  视图
+
+假设你已经安装好了Rails. Ruby
+
+## 运行
+
+$ bundle exec rails server
+
+## 3 个演示用的页面
+
+3.1 /simplest_view:
+
+只显示最简单的erb页面, 在该页面上渲染了最基本的内容
+
+3.2 /my_view:
+
+显示了如何把变量定义在controller中,然后显示在view中.
+
+3.3 /list
+
+显示了在 erb文件中使用循环.
+
+3.4 /with_footer
+
+显示了在 erb文件中使用`partial`, 并且传递一个变量过去.
